@@ -11,4 +11,6 @@ href="https://arxiv.org/abs/2107.06826">arXiv:2107.06826</a>.
 ## Contributors:
 - Jyesta Mahayu Adhidewata, <a
   href="mailto:jyesta.ma@gmail.com">jyesta.ma [at] gmail [dot] com</a>
-- Ahmad Ridwan Tresna Nugraha, <a href="mailto:ahmad.ridwan.tresna.nugraha@lipi.go.id@">ahmad.ridwan.tresna.nugraha [at] lipi [dot] go [dot] id</a>
+- Ahmad Ridwan Tresna Nugraha, <a
+  href="mailto:ahmad.ridwan.tresna.nugraha@lipi.go.id">ahmad.ridwan.tresna.nugraha
+  [at] lipi [dot] go [dot] id</a>
