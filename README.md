@@ -14,3 +14,6 @@ href="https://arxiv.org/abs/2107.06826">arXiv:2107.06826</a>.
 - Ahmad Ridwan Tresna Nugraha, <a
   href="mailto:ahmad.ridwan.tresna.nugraha@lipi.go.id">ahmad.ridwan.tresna.nugraha
   [at] lipi [dot] go [dot] id</a>
+- Eddwi Hesky Hasdeo, <a
+  href="mailto:eddwi.hesky.hasdeo@lipi.go.id">eddwi.hesky.hasdeo
+  [at] lipi [dot] go [dot] id</a>
