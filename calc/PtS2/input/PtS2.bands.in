@@ -1,0 +1,5 @@
+&BANDS
+ outdir='../tmp/',
+ prefix='PtS2',
+ filband='PtS2.bands',
+/

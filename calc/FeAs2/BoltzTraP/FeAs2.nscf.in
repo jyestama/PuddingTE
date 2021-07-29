@@ -1,0 +1,37 @@
+&CONTROL
+ calculation='nscf',
+ restart_mode='from_scratch',
+ verbosity='high',
+ prefix='FeAs2',
+ pseudo_dir='../pseudo/',
+ outdir='../tmp/',
+/
+&SYSTEM
+ ibrav=0,
+ nat=6,
+ ntyp=2,
+ ecutwfc=60.0,
+ ecutrho=720.0,
+ occupations='smearing',
+ degauss=0.005,
+/
+&ELECTRONS
+ mixing_beta=0.7,
+ conv_thr=1d-8,
+/
+ATOMIC_SPECIES
+ Fe 55.845 Fe.pbesol-spn-kjpaw_psl.1.0.0.UPF
+ As 74.922 As.pbesol-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS (crystal)
+  As      0.00000000000000   0.16782149909391   0.62896185410399  ! // As 
+  As      0.00000000000000   0.83217850090609   0.37103814589601  ! // As 
+  As      0.50000000000000   0.33217850090609   0.12896185410399  ! // As 
+  As      0.50000000000000   0.66782149909391   0.87103814589601  ! // As 
+  Fe      0.00000000000000   0.00000000000000   0.00000000000000  ! // Fe 
+  Fe      0.50000000000000   0.50000000000000   0.50000000000000  ! // Fe     
+K_POINTS automatic
+19 11 9 1 1 1
+CELL_PARAMETERS (angstrom)
+   3.14687893721396   0.00000000000000   0.00000000000000
+   0.00000000000000   5.45158263986229   0.00000000000000
+   0.00000000000000   0.00000000000000   6.48445154582639

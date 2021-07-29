@@ -1,0 +1,89 @@
+ FeAs2                                                                           XXXXXXXX
+ dos normalization:    2.0000000000000000     
+ About to call read_input
+=================== INPUT VARIABLES ======================
+ Bandstyle: GENE     
+Set fermi:   0
+Debug:  0
+FermiE:  0.6384. step size: 0.0005 Ecut: 0.4000. # val. e:   52.000
+Run type: CALC
+Fourier expansion factor:  5
+Calc type: BOLTZ
+Fermi level range: (Ry)  0.1500
+Max temperature: (K)  300.0 Temp step: (K) ****
+Range around Ef where bands are given individual output (Ry) -1.0000
+TETRA used for calculation of DOS
+    0 doping levels will be used
+=========================================================
+ Band style: GENE     
+  1  0  0         1
+  0  1  0
+  0  0  1
+
+ -1  0  0         2
+  0 -1  0
+  0  0  1
+
+ -1  0  0         3
+  0  1  0
+  0  0 -1
+
+  1  0  0         4
+  0 -1  0
+  0  0 -1
+
+ -1  0  0         5
+  0 -1  0
+  0  0 -1
+
+  1  0  0         6
+  0  1  0
+  0  0 -1
+
+  1  0  0         7
+  0 -1  0
+  0  0  1
+
+ -1  0  0         8
+  0  1  0
+  0  0  1
+
+ Number of kpts in IBZ:          300
+ Input file read successfully
+ About to call subroutine bandana
+==============  OUTPUT from BANDANA       ================
+Egap:     0.012340 Energy range:     0.240451 -     0.930434. Bands range:   13 -   31
+VBM:     0.632831 CBM:     0.645171 Efermi:     0.638365
+
+==============  End BANDANA           ====================
+ Subroutine bandana executed successfully
+ Approx number of kpts in BZ :         2400
+ About to enter gen_lattpoints
+ ======= OUTPUT FROM gen_lattpoints ======================
+  KXMAX,KYMAX,KZMAX          22          13          11
+ GMAX   129.07799770654435     
+     1770 LATTICE POINTS GENERATED 
+
+        SIZE INCLUDING STAR MEMBERS =    12063
+ USED TIME:   2.0000000949949026E-003
+ =============== END gen_lattpoints ======================
+ Allocating engre...
+ engre allocated
+ About to enter fite4...
+fite4 matrix setup:     0.076
+ inf =            0
+ INF2:           0
+fite4 diagonalize:      0.125
+fite4 reexpand:         0.064
+ Subroutine fite4 executed
+ Finally! Starting Boltzmann calculation!
+ Calling DOS
+==============  OUTPUT from dos   ========================
+ max-exp          21          12          10
+ iff1,iff2,iff3          45          25          24
+  in dos before bracketing ebmin/max =   0.23806714074717292       0.93465150211618186     
+  in dos ebmin/max =   0.16840870461027202        1.0043099382530827       deltae =    5.0000000000000001E-004
+  in dos icut1, icut2 =           13          31
+   1.0043099382530827       0.16840870461027202        5.0000000000000001E-004 npoints        1672
+ Calling FermiIntegrals
+ TRANSPORT END BoltzTrap calculation

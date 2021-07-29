@@ -1,0 +1,33 @@
+&CONTROL
+ calculation='scf',
+ restart_mode='from_scratch',
+ prefix='PtS2',
+ pseudo_dir='../pseudo/',
+ outdir='../tmp/',
+/
+&SYSTEM
+ ibrav=0,
+ nat=3,
+ ntyp=2,
+ ecutwfc=100.0,
+ ecutrho=800.0,
+ nbnd=11,
+ !occupations='smearing', smearing='gaussian', degauss=0.005
+/
+&ELECTRONS
+ mixing_beta=0.7,
+ conv_thr=1d-8,
+/
+ATOMIC_SPECIES
+ Pt 195.084 Pt.pbesol-n-kjpaw_psl.1.0.0.UPF
+ S  32.065  S.pbesol-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS (crystal)
+  Pt     -0.00000000000000  -0.00000000000000  -0.00000000000000  
+  S       0.33334578837407   0.66665421162593   0.21738586618498   
+  S       0.66665421162593   0.33334578837407   0.78261413381502   
+K_POINTS automatic
+8 8 8 1 1 1
+CELL_PARAMETERS (angstrom)
+   1.78404617656060  -3.08999880878646  -0.00014076272052
+   1.78404617656060   3.08999880878646   0.00014076272052
+   0.00000000000000   0.00026252354989   5.69679690427188
