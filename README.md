@@ -3,7 +3,7 @@
 This repository contains a Jupyter (Python) notebook for calculating
 thermoelectric properties of semiconductors with parabolic and
 pudding-mold band structures.  If readers benefit from the notebook,
-please cite our paper: <strong>Thermoelectric properties of
+please kindly cite our paper: <strong>Thermoelectric properties of
 semiconducting materials with parabolic and pudding-mold band
 structures</strong>, which is currently available in <a
 href="https://arxiv.org/abs/2107.06826">arXiv:2107.06826</a>.
